@@ -132,7 +132,7 @@ negatif_mi_pozitif_mi(-3)  # Çıktı: Negatif
 
 
 
-# 🔹 Soru 11:
+# 🔹 Soru 12:
 # *args kullanarak gelen sayıların çarpımını hesaplayan fonksiyon yaz.
 def carpim(*args):
     sonuc = 1
@@ -304,3 +304,82 @@ def veda(isim="Arkadaş"):
 veda()          # Çıktı: Hoşça kal Arkadaş!
 veda("Merve")   # Çıktı: Hoşça kal Merve!
 # ----------------------------------------------------------------
+
+
+
+# 🔹 Soru 21:
+# Bir kelimeyi parametre olarak alıp, büyük harflerle yazdıran bir fonksiyon yaz.
+
+
+
+def buyuk_yaz(kelime):
+    print(kelime.upper())
+
+buyuk_yaz("merhaba")  # Çıktı: MERHABA
+# ----------------------------------------------------------------
+
+
+
+# 🔹 Soru 22:
+# Bir sayı listesinden sadece çift olanları döndüren fonksiyonu yaz.
+
+
+
+def ciftleri_getir(liste):
+    # Boş bir liste oluştur
+    ciftler = []
+
+    # Listedeki her elemanı sırayla kontrol et
+    for x in liste:
+        # Eğer sayı 2 ile tam bölünüyorsa (çiftse)
+        if x % 2 == 0:
+            # Bu sayıyı ciftler listesine ekle
+            ciftler.append(x)
+
+    # Sonuç olarak ciftler listesini döndür
+    return ciftler
+
+print(ciftleri_getir([1, 2, 3, 4, 5, 6]))  # Çıktı: [2, 4, 6]
+# ----------------------------------------------------------------
+
+
+
+# 🔹 Soru 23:
+#Bir string'in kaç karakterden oluştuğunu döndüren fonksiyon yaz.
+
+
+
+def uzunluk(kelime):
+    return len(kelime)
+
+print(uzunluk("Python"))  # Çıktı: 6
+# ----------------------------------------------------------------
+
+
+# 🔹 Soru 24:
+
+
+# Bir sayı listesindeki en büyük sayıyı döndüren fonksiyon yaz.
+
+
+
+def en_buyuk(liste):
+    return max(liste)
+
+print(en_buyuk([4, 10, 8]))  # Çıktı: 10
+# ----------------------------------------------------------------
+
+
+# 🔹 Soru 25:
+# *args kullanarak gönderilen sayılar arasından en büyüğünü bulan fonksiyon yaz.
+
+def hmm(*sayilar):
+    return max(sayilar)
+
+print(hmm(10, 20))  # Çıktı: 20
+
+
+
+
+
+

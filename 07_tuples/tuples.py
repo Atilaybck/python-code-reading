@@ -1,4 +1,24 @@
 # ---------------------------------------
+# 🔰 TUPLE NEDİR?
+
+# Tuple (demet), Python'da sıralı (ordered) ama DEĞİŞTİRİLEMEZ (immutable) veri yapısıdır.
+# Listelere benzer, ancak oluşturulduktan sonra elemanları değiştirilemez, eklenemez veya silinemez.
+
+# Ne zaman kullanılır?
+# - Sabit kalması gereken veriler tutulmak istendiğinde (örneğin: ay isimleri, sabit renkler vb.)
+# - Veri güvenliği ve performans açısından tercih edilir.
+# - Tuple’lar listelere göre daha hafiftir ve daha hızlı çalışır.
+
+# Tuple nasıl tanımlanır?
+# - () parantez ile tanımlanır. Örneğin:
+#     renkler = ("kırmızı", "yeşil", "mavi")
+
+# Tuple ile listeler arasındaki temel fark:
+# - Liste: Değiştirilebilir → [1, 2, 3]
+# - Tuple: Değiştirilemez   → (1, 2, 3)
+
+
+# ---------------------------------------
 # 🔹 1. Tuple Oluşturma
 
 renkler = ("kırmızı", "yeşil", "mavi")
