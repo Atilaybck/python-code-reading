@@ -43,3 +43,4 @@ print("Büyük harfli isimler:", buyukler)  # Çıktı: ['ALI', 'AYŞE', 'ZEYNEP
 sayilar = [5, 12, 3, 20, 8]
 buyukler = list(filter(lambda x: x > 10, sayilar))
 print("10'dan büyük sayılar:", buyukler)  # Çıktı: [12, 20]
+ 
